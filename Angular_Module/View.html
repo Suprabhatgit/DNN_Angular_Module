@@ -1,0 +1,41 @@
+﻿<!--[JavaScript:{ jsname: "JQuery" }]
+[JavaScript:{ jsname: "Knockout" }]
+[JavaScript:{ path: "~/Resources/Shared/scripts/dnn.jquery.js"}]
+[JavaScript:{ path: "~/DesktopModules/Angular_Module/scripts/ItemView.js"}]-->
+[ModuleAction:{controlKey : "Edit", securityAccessLevel : "Edit",  titleKey: "EditModule", localResourceFile: "~/DesktopModules/Angular_Module/App_LocalResources/View.resx" }]
+
+
+[Css:{ path: "~/DesktopModules/Angular_Module/Scripts/styles.ef46db3751d8e999.css"}]
+[JavaScript:{ path: "~/DesktopModules/Angular_Module/Scripts/runtime.d13e8e77edcd5e63.js", priority:100, provider: "DnnFormBottomProvider"}]
+
+[JavaScript:{ path: "~/DesktopModules/Angular_Module/Scripts/polyfills.597f56c575da9594.js", priority:100, provider: "DnnFormBottomProvider"}]
+[JavaScript:{ path: "~/DesktopModules/Angular_Module/Scripts/main.db62a48599e5a7d0.js", priority:100, provider: "DnnFormBottomProvider"}]
+
+<app-root></app-root>
+
+<!--<div id="Items-[ModuleContext:ModuleId]">
+    <ul class="tm_tl" data-bind="foreach: itemList">
+        <li class="tm_t">
+            <h3 data-bind="text: name"></h3>
+            <div class="tm_td" data-bind="text: description"></div>
+            <div data-bind="visible: $parent.editMode()">
+                <a data-bind="attr: {href: editUrl}">[Resx:{key:"EditItem"}]</a>
+                <a data-bind="click: $parent.deleteItem" href="#">[Resx:{key:"DeleteItem"}]</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<script language="javascript" type="text/javascript">
+    jQuery(function ($) {
+        var moduleId = parseInt("[ModuleContext:ModuleId]");
+
+        var localizedSettings = {};
+
+        var viewmodel = new Angular_Module.itemListViewModel(moduleId, localizedSettings);
+        viewmodel.init();
+
+        ko.applyBindings(viewmodel, $("#Items-" + moduleId)[0]);
+
+    });
+</script>-->

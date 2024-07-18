@@ -1,0 +1,7 @@
+C:\Websites\dnndev2.me\bin\Angular_Module.dll
+C:\Websites\dnndev2.me\bin\Angular_Module.pdb
+C:\Websites\dnndev2.me\DesktopModules\Angular_Module\obj\Release\Angular_Module.csproj.AssemblyReference.cache
+C:\Websites\dnndev2.me\DesktopModules\Angular_Module\obj\Release\Angular_Module.csproj.CoreCompileInputs.cache
+C:\Websites\dnndev2.me\DesktopModules\Angular_Module\obj\Release\Angular_.FEC044EA.Up2Date
+C:\Websites\dnndev2.me\DesktopModules\Angular_Module\obj\Release\Angular_Module.dll
+C:\Websites\dnndev2.me\DesktopModules\Angular_Module\obj\Release\Angular_Module.pdb
